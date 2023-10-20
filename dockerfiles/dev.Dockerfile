@@ -38,3 +38,6 @@ run mv bazel-archive-keyring.gpg /usr/share/keyrings
 run echo "deb [arch=amd64 signed-by=/usr/share/keyrings/bazel-archive-keyring.gpg] https://storage.googleapis.com/bazel-apt stable jdk1.8" | tee /etc/apt/sources.list.d/bazel.list
 run apt update
 run apt install -y bazel
+
+# todo: move
+run apt install -y clang-format
