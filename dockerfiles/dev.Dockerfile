@@ -27,7 +27,7 @@ run ln -s dotfiles/.tmux.conf.local .tmux.conf.local
 run ln -s dotfiles/.vimrc .vimrc
 
 # c++
-run apt install -y clang
+run apt install -y g++
 
 # bazel prerequisites
 run apt install -y apt-transport-https curl gnupg
