@@ -1,11 +1,11 @@
+#include "genome_sequencer.hpp"
+
 #define CATCH_CONFIG_MAIN
 #include <catch2/catch_test_macros.hpp>
 #include <catch2/generators/catch_generators.hpp>
 
 #include <string>
 #include <vector>
-
-std::string sequence(const std::vector<std::string> &input) { return ""; }
 
 TEST_CASE("Isograd test cases") {
   // clang-format off

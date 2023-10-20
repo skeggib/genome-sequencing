@@ -5,5 +5,6 @@ cc_test(
     ],
     deps = [
         "@catch2//:catch2_main",
+        "//src:genome_sequencer"
     ],
 )

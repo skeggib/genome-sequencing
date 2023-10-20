@@ -1,6 +1,11 @@
-cc_binary(
-    name = "hello-world",
+cc_library(
+    name = "genome_sequencer",
+    visibility = ["//visibility:public"],
+    includes = ["."],
+    hdrs = [
+        "genome_sequencer.hpp"
+    ],
     srcs = [
-        "hello_world.cpp"
+        "genome_sequencer.cpp"
     ]
 )
