@@ -3,5 +3,13 @@
     "build": {
         "context": "..",
         "dockerfile": "../dockerfiles/dev.Dockerfile"
-    }
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"BazelBuild.vscode-bazel",
+				"ms-vscode.cpptools"
+			]
+		}
+	}
 }
