@@ -41,3 +41,5 @@ run apt install -y bazel
 
 # todo: move
 run apt install -y clang-format
+run apt install -y gdb
+run apt install -y clang

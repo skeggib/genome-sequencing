@@ -8,7 +8,9 @@
 		"vscode": {
 			"extensions": [
 				"BazelBuild.vscode-bazel",
-				"ms-vscode.cpptools"
+				"ms-vscode.cpptools",
+				"matepek.vscode-catch2-test-adapter",
+				"vadimcn.vscode-lldb"
 			]
 		}
 	}
